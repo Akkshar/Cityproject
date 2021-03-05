@@ -3,11 +3,8 @@ print("that you choose\nbased on: area, population")
 print("⚠️dont type in any typos please!⚠️")
 
 def cities():
-    continent = input("please any continent (Asia, Africa, Europe, North america, South america)")
+    continent = input("please any continent (Asia, Africa, Europe, North america, South america):-")
     file = open(continent,'r')
-    file1 = 'continents'+'/'+file
-    print(file)
-    print(file1)
     num = 0
     ans = 0
     for var in file:
